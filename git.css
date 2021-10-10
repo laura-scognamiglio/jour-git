@@ -1,32 +1,62 @@
-body{
-    background-image: url();
+@font-face{
+    font-family: "pestatahunbaru";
+    src: url(pestatahunbaru.ttf) format('truetype');
+    
 }
 
-h1{
+body{
+    background: url(https://images.pexels.com/photos/3109807/pexels-photo-3109807.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) no-repeat fixed center;
+    border-radius: 5px;
+}
+
+caption{
     text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+    font-size: 190%;
+    font-family: "pestatahunbaru", Arial, Helvetica, sans-serif;
+
 }
 
 table{
     border-collapse: collapse;
-    width: 100%;
+    border-radius: 6px;
     padding: 10%;
+    flex-direction: column;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: rgb(255, 233, 200);
+    font-size: 2em;
+    
 }
+.tableau{
 
-
+    
+}
 
 .en-tête{
     font-weight: 700;
     text-align: center;
 }
 
-td{
-    border: 1px solid black; 
+th{
+    border: rebeccapurple solid 1px;
+    box-shadow: 5px 5px 5px purple;
 }
 
-th{
-    text-align: left;
+td{
+    
+    border: 2px dotted black;
+    background-color: transparent;
+    transition-property: background-color;
+    transition-duration: 2s;
 }
+
+td:hover{
+    background-color: #9354aa;
+    cursor: pointer;
+}
+
