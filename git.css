@@ -1,0 +1,32 @@
+body{
+    background-image: url();
+}
+
+h1{
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    padding: 10%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.en-tête{
+    font-weight: 700;
+    text-align: center;
+}
+
+td{
+    border: 1px solid black; 
+}
+
+th{
+    text-align: left;
+}
